@@ -82,18 +82,18 @@ app.use(function (req, res, next) {
 // Routes
 app.use('/', require('./routes/index.js'));
 
-// //404
-// app.use((res, req, next) => {
-// 	var err = new Error('File not found!');
-// 	err.status = 404;
-// 	next(err);
-// });
+//404
+app.use((res, req, next) => {
+	var err = new Error('File not found!');
+	err.status = 404;
+	next(err);
+});
 
-// //Error Handler
-// app.use((error, req, res, next) => {
-// 	res.status(500);
-// 	res.render('error');
-// });
+//Error Handler
+app.use((error, req, res, next) => {
+	res.status(500);
+	res.render('error');
+});
 
 const PORT = process.env.PORT || 5000;
 

@@ -7,7 +7,6 @@ const User = require('../models/user');
 const Quiz = require('../models/quiz');
 // const questions = require('../questions.js');
 
-
 function createQuiz(
 	school,
 	ans1,

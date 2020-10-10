@@ -249,3 +249,10 @@ input.invalid {
 .tab {
 	display: none;
 }
+
+.over {
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
