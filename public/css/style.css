@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "minet";
+	src: url("/fonts/virgo.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.heart {
+	color: rgb(226, 82, 82);
+}
+
+a:hover {
+	color: #3965b3;
+}
+
+/* Trick */
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+footer.footer {
+	margin-top: auto;
+	padding: 1em 0;
+	border-top: solid 1px rgba(34, 34, 34, 0.151);
+	background-color: rgb(247, 247, 247);
+}
+
+/* footer */
+
+@media (max-width: 550px) {
+	footer.footer {
+		text-align: center;
+	}
+	footer.footer .right {
+		text-align: center;
+	}
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: #fff;
+	background: #6699ee;
+}
+
+::selection {
+	color: #fff;
+	background: #6699ee;
+}
+
+.noselect, button, br {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.minet {
+	font-family: 'minet';
+	font-size: 2em;
+	color: #6699ee;
+}
+
+.blue {
+	color: #6699ee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.right {
+	text-align: right;
+}
+
+.semi {
+	font-weight: 600;
+}
+
+.center {
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.zero {
+	margin: 0;
+}
+
+.none {
+	display: none;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+.logtext {
+	margin-right: 1em;
+}
+
+.noselect, img, br {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#login {
+	margin-top: 7em;
+}
+
+@media (max-width: 550px) {
+	#login {
+		margin-top: 0em;
+	}
+}
+
+.answer {
+	margin-bottom: 0.5em;
+}
+
+button.cool {
+	box-shadow: 0px 8px 32px rgba(56, 123, 217, 0.6);
+	background-color: #6699ee;
+	color: #fff;
+	border: none;
+	transform: translateY(-4px);
+	transition: 0.5s;
+}
+
+button.cool:hover {
+	transform: translateY(0px);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+p.login {
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav {
+	padding: 0;
+	margin: 0;
+	padding: 1.5em 0;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav .flexer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rightlink a {
+	padding: 0;
+	margin: 0;
+	margin-left: 1.5em;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+@media (max-width: 750px) {
+	nav .flexer {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.rightlink a {
+		margin-left: 0;
+		margin: 0 1em 0 0;
+	}
+}
+
+.adminlink {
+	margin-left: 1em;
+}
+
+input, textarea {
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+form#team h4 {
+	margin-top: 1.5em;
+}
+
+button.save {
+	margin: 2em 0;
+	background-color: #6699ee;
+	border: none;
+	border-radius: 0.5em;
+}
+
+button.save:hover {
+	background-color: #4371c2;
+}
+
+.card {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	border: solid 1.5px rgba(34, 34, 34, 0.205);
+	border-radius: 0.5em;
+	padding: 2em;
+}
+
+input.invalid {
+	background-color: #ffdddd;
+}
+
+.tab {
+	display: none;
+}

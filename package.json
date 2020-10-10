@@ -1,0 +1,29 @@
+{
+	"name": "x2020quiz",
+	"version": "2.0.0",
+	"description": "MINET X 2020 Quiz App",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "Arhaan Bahadur",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"connect-flash": "^0.1.1",
+		"connect-mongo": "^3.2.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-rate-limit": "^5.1.3",
+		"express-session": "^1.17.1",
+		"mongoose": "^5.9.20",
+		"passport": "^0.4.1",
+		"passport-local": "^1.0.0",
+		"pug": "^3.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}

@@ -1,0 +1,65 @@
+extends layout
+block content
+	.container
+		.dash
+			.seven.columns
+				h1.semi Admin Panel
+				h5 hi bb.
+			.u-cf
+
+			#dashstuff
+				.row
+					#login
+						.flex-center
+							.twelve.columns
+								each quiz in team
+									.card
+										h3.semi.blue= quiz.school
+										.u-cf
+										br
+										div
+											.six.columns
+												h5.semi Answer 1
+												p= quiz.ans1
+												h5.semi Answer 2
+												p= quiz.ans2
+												h5.semi Answer 3
+												p= quiz.ans3
+												h5.semi Answer 4
+												p= quiz.ans4
+												h5.semi Answer 5
+												p= quiz.ans5
+												h5.semi Answer 6
+												p= quiz.ans6
+												h5.semi Answer 7
+												p= quiz.ans7
+												h5.semi Answer 8
+												p= quiz.ans8
+												h5.semi Answer 9
+												p= quiz.ans9
+												h5.semi Answer 10
+												p= quiz.ans10
+
+											.six.columns
+												h5.semi Answer 11
+												p= quiz.ans11
+												h5.semi Answer 12
+												p= quiz.ans12
+												h5.semi Answer 13
+												p= quiz.ans13
+												h5.semi Answer 14
+												p= quiz.ans14
+												h5.semi Answer 15
+												p= quiz.ans15
+												h5.semi Answer 16
+												p= quiz.ans16
+												h5.semi Answer 17
+												p= quiz.ans17
+												h5.semi Answer 18
+												p= quiz.ans18
+												h5.semi Answer 19
+												p= quiz.ans19
+												h5.semi Answer 20
+												p= quiz.ans20
+
+										.u-cf

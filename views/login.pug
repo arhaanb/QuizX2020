@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	.container
+		#login
+			section
+				.flex-center
+					.six.columns
+						h1.semi.center Quiz
+						h5.center The quiz will start as soon as you login.
+						form#startup(action='/login' method='POST')
+							label(for='username') Username
+							input.login#username(type='text' name='username' placeholder='Enter Username' required autocomplete="off")
+							label(for='password') Password
+							input.login(type='password' name='password' placeholder='Enter Password' required autocomplete="off")
+							.flex-center
+								button.cool.save.button-primary(type='submit') Start
+							if success_msg
+								h5.center= success_msg
+							if error_msg
+								h5.center= error_msg
+							if message
+								h5.center= message
+
+						.u-cf

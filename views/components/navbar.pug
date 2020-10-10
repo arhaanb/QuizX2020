@@ -1,0 +1,13 @@
+nav
+	.container
+		.flexer
+			div
+				a.minet.blue(href="//minet.co") MINET
+			div.rightlink
+				if !currentUser
+					//- a(href="/rsvp") Register
+					//- a(href="/login") Login
+				if currentUser
+					//- a(href="/") Dashboard
+					//- a(href="/team") Team
+					a(href='/logout') Logout

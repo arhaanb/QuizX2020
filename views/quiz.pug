@@ -1,0 +1,148 @@
+extends layout
+block content
+	.container
+		.dash
+			.seven.columns
+				h1.semi Hi #{currentUser.school}
+				h5 Quiz tym. Don't reload this page. 
+				//- br
+				h5.blue#time
+
+			.u-cf
+
+			#dashstuff
+				.row
+					.flex-center
+						.six.columns
+							form#regForm(action='/quiz' method="POST")
+								.tab
+									.card.noselect
+										h3.semi Question 1
+										p X, is a San Francisco Police act, that makes it unlawful to fabricate or make false emergency reports that are racially biased. Interestingly, its abbreviation is based on an internet term used to describe the people who do exactly this.
+										input(type="text" name="ans1" placeholder="Answer")
+								.tab
+									.card.noselect
+										h3.semi Question 2
+										p Microsoft refused to sell X technology to Y, until congress passed regulations on the use of Y and human rights. Its president stated, "We will not sell X technology to Y in the United States until we have a national law in place, grounded in human rights, that will govern this technology." Give X.
+										input(type="text" name="ans2" placeholder="Answer")
+								.tab
+									.card.noselect
+										h3.semi Question 3
+										p This application X became the world's fastest growing mobile app shortly after being released to the public by Y. Amidst growing security and data concerns along with the clause 
+										p "agrees and acknowledges that Y will not be liable for … any unauthorized access to your information or modification thereof"
+										p mentioned in the TOS of the application forced it to become open source due to public request. Name the application X and Y.
+										input(type="text" name="ans3" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 4
+										p X was an entrepreneur who helped to create the predecessor to modern film shooting. He is the only person to be represented by two stars in the Hollywood Walk of Fame. On March 14, 1932, after suffering from intense intestinal pain, he shot himself in the heart, leaving a note which read, "To my friends: my work is done. Why wait?"
+										input(type="text" name="ans4" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 5
+										p X is a Y program, created by Robert Gaskins and Dennis Austin at a software company named Forethought, Inc. It was released on 20 April, 1987,  however was swiftly acquired by Z only 3 months later. First intended only to be used in designing visuals for group Ys within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond. The impact of this much wider use of X has been experienced as a powerful change throughout society, with strong reactions including advice that it should be used less, should be used differently, or should be used better. Now its official name is Z X but most people simply use the term X. Find X and Z.
+										input(type="text" name="ans5" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 6
+										p A term known as X recently came into use as a social attitude, that facilitates the agreement amongst multiple people, that somebody is worthy of hate and slander due to controversial behaviors they have engaged in. In some instances X is effective in uniting people to take down a bad person who is in a position of power, but in most cases it leads to immediate outrage, mob mentality, irrational thinking and the spread of misinformation by people who want to capitalize on the controversy.
+										input(type="text" name="ans6" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 7
+										p X is a digital service, which was launched in 2019, giving a tough competition to similar, but more popular apps. It recently became available in India, but through another digital platform Y that was only available in india but still didn't have as much traction as the others. Y is now rebranded as XY, with the names forming a clever pun upon combining them. ID X and Y.
+										input(type="text" name="ans7" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 8
+										p Named after canned meat described as horrible and unescapable and ubiquitos. This has been a great help for each and every one of us. It might be of nuisance sometimes when it hides what may be deemed of some importance but over all it protects us from the wrath of the Nigerian Prince.
+										input(type="text" name="ans8" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 9
+										p Y launched X in 2010. The day X reached RTM status was marred by a, now-infamous, funeral procession which seeked to mark the ‘passing’ of the rivals it seeked to dethrone. Y’s employees also indulged in a dance from Michael Jackson’s Thriller. Needless to say, X bombed, and consecutive failures like it have cast a shadow on Y’s prowess, or lack thereof, in X’s segment. ID X.
+										input(type="text" name="ans9" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 10
+										p 'X' was developed in 1973. It was co-founded by a Bay Shore High School graduate. 'X' uses an electric cable consisting of an inner conductor surrounded by a concentric conducting shield, with the 2 seperated by a dielectric as a shared medium. It has gotten 13,691.7241 times faster over the course of its history. '
+										input(type="text" name="ans10" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 11
+										p X is a technology used for convenience of people, though it may have a negative affect where people do not learn to do the thing that this technology allows them to not do. Y company will integrate this technology into their products to make X Z in 2020. X was earlier tested by Y in 2017, but led to the death of a pedestrian in California which led to it being scrapped. Name X and Z.
+										input(type="text" name="ans11" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 12
+										p X is a digital service, which was launched in 2019, giving a tough competition to similar, but more popular apps. It recently became available in India, but through another digital platform Y that was only available in india but still didn't have as much traction as the others. Y is now rebranded as XY, with the names forming a clever pun upon combining them. ID X and Y.
+										input(type="text" name="ans12" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 13
+										p X is an app named after a circuit had a short lived time of glory between 2017-2018 because of its strong anti-hate policies. It was hailed as an alternative twitter app for black people but was taken down in 2018 as it was believed to condone racism, sexism, harassment, bots, and hate speech. what is X?
+										input(type="text" name="ans13" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 14
+										p X has been developed by the community of Y and was launched in 2009. The plethora of visual entertainment that one would be able to find on Y, comes from X. X has a history of playing April Fools' Day pranks on its users, the first ever being a Catification feature which allowed users to automatically add cats to any image. ID X 
+										input(type="text" name="ans14" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 15
+										p Connect
+										img(src="https://i.imgur.com/1po6801.png" alt="" style="width: 100%")
+										input(type="text" name="ans15" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 16
+										p Give Funda
+										img(src="https://i.imgur.com/HvlIMdA.png" alt="" style="width: 100%")
+										input(type="text" name="ans16" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 17
+										p Give Funda
+										video(width="320" height="240" controls)
+											source(src="https://i.imgur.com/1zrpDru.mp4" type="video/mp4")
+											source(src="https://i.imgur.com/1zrpDru.mp4" type="video/ogg")
+											p Your browser does not support the video tag.
+										input(type="text" name="ans17" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 18
+										p Released worldwide in 1997, X was a handheld digital _____. X became a huge sensation worldwide and was one of the most popular toys of late 1990s and early 2000s. X housed in a small egg-shaped computer with an interface consisting of three buttons.
+										input(type="text" name="ans18" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 19
+										p Originally under a different alias and founded by Lisa Donovan, Shay Carl and Philip DeFranco, they came to be known as the Digital Network in 2017 after it was sold to Disney in 2014. In 2012 they announced that they had over 1,000 channels signed under the network, and subsequently by the end of 2012, they had surpassed Machinima to become the number one independent YouTube network. They had signed various famous Youtubers under them, even involving one of the most subscribed channels, but towards 2017, dropped them due to arising controversies. Identify this very famous network.
+										input(type="text" name="ans19" placeholder="Answer")
+
+								.tab
+									.card.noselect
+										h3.semi Question 20
+										p Dominating the lower end computer markets X was an 8 bit home computer . X popular success was largely due to its sale in local retail stores rather than exclusive electronic stores. It came with support for multicolour sprites and a custom chip for waveform generation and could create superior visuals and audio compared to systems without such hardware. X could be credited to popularize video games, encourage personal computing and pioneer computer-created music. What is X.
+										input(type="text" name="ans20" placeholder="Answer")
+
+								.flex-center
+									//- button.button-primary.save.cool#prevBtn(type='button' onclick='nextPrev(-1)') Previous
+									button.button-primary.save.cool#nextBtn(type='button' onclick='nextPrev(1)') Next
+
+	script(src="/js/main.js")
