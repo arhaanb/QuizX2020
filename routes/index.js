@@ -30,6 +30,7 @@ function createQuiz(
 	ans19,
 	ans20
 ) {
+
 	var quizData = {
 		school,
 		ans1,
@@ -99,11 +100,6 @@ router.post('/quiz', ensureAuthenticated, async (req, res) => {
 		req.body.ans20,
 	)
 
-	Quiz.create(quizData, (error, log) => {
-		if (error) {
-			return next(error);
-		}
-	});
 	return res.render('over')
 });
 
