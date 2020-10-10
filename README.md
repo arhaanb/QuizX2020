@@ -23,6 +23,4 @@ Every once in a while, one of these things also happens to be a thing of beauty.
 
 At X, we celebrate just that. And try our best to Make.
 
-<br>
-
 ### Made with 💖 by Arhaan Bahadur
