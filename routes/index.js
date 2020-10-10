@@ -64,15 +64,15 @@ function createQuiz(
 
 // Quiz
 router.get('/', ensureAuthenticated, (req, res) => {
-	// if (req.user.quizStarted) {
-	// 	return res.render('over')
-	// } else {
-	User.findById(req.user.id, function (err, user) {
-		user.quizStarted = 1
-		user.save()
-		return res.render('quiz')
-	})
-	// }
+	if (req.user.quizStarted) {
+		return res.render('over')
+	} else {
+		User.findById(req.user.id, function (err, user) {
+			user.quizStarted = 1
+			user.save()
+			return res.render('quiz')
+		})
+	}
 });
 
 router.post('/quiz', ensureAuthenticated, async (req, res) => {
