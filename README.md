@@ -1,6 +1,8 @@
-# <img src="./public/img/quiz.svg" width=70% />
+# <img src="./public/img/text.svg" width=50% />
 
 This app was built for hosting the preliminary round for our quiz event.
+
+<br>
 
 ## Running the app
 
