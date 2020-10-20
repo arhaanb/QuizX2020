@@ -1,3 +1,5 @@
+<br>
+
 # <img src="./public/img/text.svg" width=50% />
 
 This app was built for hosting the preliminary round for our quiz event.
@@ -25,4 +27,4 @@ At X, we celebrate just that. And try our best to Make.
 
 <br>
 
-Made with 💖 by Arhaan Bahadur
+Made with 💗 by Arhaan Bahadur
